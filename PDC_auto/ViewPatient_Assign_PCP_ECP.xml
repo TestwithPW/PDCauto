@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Deactivate reactivate">
+  <test thread-count="5" name="View required Patient">
+    <classes> 
+     <class name="Test.TC_PatientDetailedView"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="Assigning POPs">
+    <classes> 
+     <class name="Test.Reassigning_Lead_POP"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="Assigning PCP and ECP">
+    <classes> 
+     <class name="Test.Reassigning_PCP_ECP"/>
+    </classes>    
+  </test>
+  
+  
+  
+</suite>
+
+<!-- Removed closing comment for Suite -->
+
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T10:24:06 IST" name="Default suite" finished-at="2024-10-14T10:24:22 IST" duration-ms="16464">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T10:24:06 IST" name="Default test" finished-at="2024-10-14T10:24:22 IST" duration-ms="16464">
+      <class name="Test.TC_AddNurse">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.TC_AddNurse@192d43ce]" started-at="2024-10-14T10:24:06 IST" name="setup" finished-at="2024-10-14T10:24:08 IST" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="provider_login()[pri:0, instance:Test.TC_AddNurse@192d43ce]" started-at="2024-10-14T10:24:08 IST" name="provider_login" finished-at="2024-10-14T10:24:08 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provider_login -->
+        <test-method signature="dashboard()[pri:1, instance:Test.TC_AddNurse@192d43ce]" started-at="2024-10-14T10:24:08 IST" name="dashboard" finished-at="2024-10-14T10:24:15 IST" duration-ms="7053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method signature="AddNurseTab()[pri:2, instance:Test.TC_AddNurse@192d43ce]" started-at="2024-10-14T10:24:15 IST" name="AddNurseTab" finished-at="2024-10-14T10:24:15 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNurseTab -->
+        <test-method signature="AddNurseFlow()[pri:3, instance:Test.TC_AddNurse@192d43ce]" started-at="2024-10-14T10:24:15 IST" name="AddNurseFlow" finished-at="2024-10-14T10:24:22 IST" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNurseFlow -->
+      </class> <!-- Test.TC_AddNurse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

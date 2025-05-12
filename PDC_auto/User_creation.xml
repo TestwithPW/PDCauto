@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="User_Creation">
+  <test thread-count="5" name="AddECP">
+    <classes> 
+     <class name="Test.Add_ECP"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="AddPatient">
+    <classes> 
+     <class name="Test.Add_Patient"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="AddPOP">
+    <classes> 
+     <class name="Test.Add_POP"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="AddNurse">
+    <classes> 
+     <class name="Test.TC_AddNurse"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="AddProviderStaff">
+    <classes> 
+     <class name="Test.TC_AddProviderStaff"/>
+    </classes>    
+  </test>
+  
+</suite>
+
+<!-- Removed closing comment for Suite -->
+
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite"> 
+  <suite-files>
+	  <suite-file path="./Sanity-login-logout.xml"></suite-file>
+	  <suite-file path="./Individual.xml"></suite-file>
+	  <suite-file path="./User_creation.xml"></suite-file>	  
+	  <suite-file path="./Dectivate_Reactivate.xml"></suite-file>
+	  <suite-file path="./ViewPatient_Assign_PCP_ECP.xml"></suite-file>  	  
+  </suite-files> 
+</suite> <!-- Suite -->
+
+
+
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Individual">
+  <test thread-count="5" name="Notify List">
+    <classes> 
+     <class name="Test.Medical_profile_Notifylist"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="Add Call notes">
+    <classes> 
+     <class name="Test.TC_AddCallNotesToPatient"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="Add General Notes">
+    <classes> 
+     <class name="Test.TC_AddGeneralNotesToPatient"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="Check Billing Eligibility">
+    <classes> 
+     <class name="Test.TC_BillingInformation"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="Download Eligible patients">
+    <classes> 
+     <class name="Test.TC_BillingPatientDownload"/>
+    </classes>    
+  </test>
+  
+   <test thread-count="5" name="Set Alert Limit">
+    <classes> 
+     <class name="Test.TC_MedicalProfile_Alert_Limit"/>
+    </classes>    
+  </test>
+  
+   <test thread-count="5" name="View Added Notes">
+    <classes> 
+     <class name="Test.TC_ViewNotesAdded"/>
+    </classes>    
+  </test>
+  
+  <test thread-count="5" name="View 1st patient details">
+    <classes> 
+     <class name="Test.View_patient_profile"/>
+    </classes>    
+  </test>
+  
+  
+</suite>
+
+<!-- Removed closing comment for Suite -->
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User_Creation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddPatient(failed)">
+    <classes>
+      <class name="Test.Add_Patient">
+        <methods>
+          <include name="add_Emergency_details1"/>
+          <include name="select_POP"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.Add_Patient -->
+    </classes>
+  </test> <!-- AddPatient(failed) -->
+  <test thread-count="5" name="AddPOP(failed)">
+    <classes>
+      <class name="Test.Add_POP">
+        <methods>
+          <include name="select_gender"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.Add_POP -->
+    </classes>
+  </test> <!-- AddPOP(failed) -->
+  <test thread-count="5" name="AddProviderStaff(failed)">
+    <classes>
+      <class name="Test.TC_AddProviderStaff">
+        <methods>
+          <include name="AddStaffFlow"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.TC_AddProviderStaff -->
+    </classes>
+  </test> <!-- AddProviderStaff(failed) -->
+</suite> <!-- Failed suite [User_Creation] -->
